@@ -59,8 +59,8 @@ font-weight: bold
   }
   .banner{
      height:500px;
-      background-image: url("C:/Users/Administrator.PC-201811252049/Desktop/blog1/img/1234.jpg");
-      
+      background-image: url("C:/Users/Administrator.PC-201811252049/Desktop/blog1/img/2345_image_file_copy_1.jpg");
+      background-size: cover;
   }
   .topNavBar{
       position:fixed;
