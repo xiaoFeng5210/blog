@@ -1,6 +1,9 @@
 body{
-    background-color: black;
-    color:white
+    background-color: #efefef;
+    
+    padding:0;
+    margin:0;
+    
 }
 a{
     text-decoration: none;
@@ -24,14 +27,15 @@ a{
     font-weight: bold;
     border-bottom: 3px solid transparent;
     padding-bottom: 5px;
+    color:#B7B7B7;
 }
 .logo{
     float:left;
 }
 .topNavBar nav ul{
     float:right;
-    padding:0;
-    margin:0;
+    
+    margin-top:11px;
 }
 .topNavBar nav ul>li>a:hover{
     border-bottom-color: #DC6465
@@ -42,7 +46,8 @@ a{
 .topNavBar .logo{
     font-family: "Hiragino Kaku Gothic Std";
   font-size: 22px;
-  padding-top: 1px;
+  padding-top: 14px;
+  padding-left:14px;
 font-weight: bold
 }
 .topNavBar .logo .rs{
@@ -52,3 +57,89 @@ font-weight: bold
 .topNavBar .logo .card{
     color: #9A9DA2;
   }
+  .banner{
+     height:500px;
+      background-image: url("C:/Users/Administrator.PC-201811252049/Desktop/blog1/img/1234.jpg");
+      
+  }
+  .topNavBar{
+      position:fixed;
+      top:0;
+      left:0;
+      width:100%;
+     
+  }
+  .banner .mask{
+      height: 500px;
+      background-color: rgba(0, 0, 0, 0.5)
+      
+  }
+  .Usercard{
+      max-width: 940px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #ffffff;
+  }
+  
+.welcome{
+    background-color: #E6686a;
+color:white;
+display: inline-block;
+padding:4px 16px;
+position: relative;
+}
+.tri{
+  border:10px solid transparent;
+  width:0px;
+  height:0px;
+  border-top-color:transparent;
+  border-right-color:transparent;
+  border-left-color:#E6686A;
+  border-top-width:0;
+  position: absolute;
+  left:4px;
+  top:100%;
+}
+.text{
+    float:left;
+    margin-left:65px;
+    margin-top:50px;
+}
+.picture{
+    float:left;
+    margin-left:40px;
+    margin-top:50px;
+}
+.ss p{
+    float:left;
+    width: 50%
+}
+.media{
+    background-color: #E6686A;
+    text-align: center
+}
+footer svg{
+    width:30px;
+    height:30px;
+    fill:white;
+}
+footer img{
+    
+    width:30px;
+    height:30px;
+    background-size: cover;
+  padding:10px 10px;
+  
+}
+.media a{
+   
+    display:inline-block;
+    border-radius: 50%;
+    margin-right:20px;
+
+}
+ .media>a:hover{
+background-color:#CF5D5F;
+}
+
+ 
