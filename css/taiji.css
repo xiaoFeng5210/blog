@@ -1,0 +1,50 @@
+body{
+  background: #444;
+}
+#yinyang{
+    width:200px;
+    height:200px;
+   
+    border-radius:50%;
+    background: linear-gradient(to bottom, rgba(252,250,249,1) 0%,rgba(255,255,255,1) 50%,rgba(0,0,0,1) 51%,rgba(5,4,5,1) 100%);
+    position:relative;
+    margin:100px auto;
+  }
+  
+  .one{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background:#000;
+    position:absolute;
+    
+    top:50px;
+    left:0
+  }
+  .two{
+     width:100px;
+    height:100px;
+    border-radius:50%;
+    background:#fff;
+    position:absolute;
+    top:50px;
+    right:0
+  }
+  .one>.circle{
+    position:absolute;
+    width:20px;
+    height:20px;
+    background:#fff;
+    border-radius:50%;
+    left:40px;
+    top:40px;
+  }
+  .two>.circle{
+    position:absolute;
+    width:20px;
+    height:20px;
+    background:#000;
+    border-radius:50%;
+    left:40px;
+    top:40px;
+  }
