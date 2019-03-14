@@ -30,7 +30,7 @@
         </nav>
       </div>
       <div class="banner" style="background-image:url('./img/2345_image_file_copy_1.jpg')"><div class="mask"></div></div>
-      <main>
+      <main style="margin-top:-350px">
         <div class="Usercard ">
           <div class="pictureAndText clearfix">
             <div class="picture">
@@ -58,36 +58,82 @@
             
           </footer>
         </div>
-  
-        <a class="button" href="#">下载 PDF 简历</a>
-  
+       <p class="mi">
+        <a class="download">下载PDF简历</a>
+       </p>
+       <div class="selfIn">
         <p>
           方应杭， 资深前端工程师，资深前端讲师，现在在 饥人谷 教前端课程。<br>
           技能：前端开发，Rails 开发，Node.js 开发
         </p>
-  
+      </div>
       </main>
-      <section>
+      <section class="skills">
         <h2>技能</h2>
-        <ol>
-          <li>HTML 5 &amp; CSS 3</li>
-          <li>JavaScript</li>
-          <li>jQuery</li>
-          <li>Vue</li>
-          <li>React</li>
-          <li>HTTP</li>
+        <ol class="clearfix">
+          <li>
+            <h3>
+            HTML 5 &amp; CSS 3
+          </h3>
+          <div class="Bar">
+            <div class="progress"></div>
+          </div>
+          </li>
+          <li> <h3>
+              HTML 5 &amp; CSS 3
+            </h3>
+            <div class="Bar">
+              <div class="progress"></div>
+            </div></li>
+          <li> <h3>
+              Css
+            </h3>
+            <div class="Bar">
+              <div class="progress"></div>
+            </div></li>
+          <li> <h3>
+              Javascript
+            </h3>
+            <div class="Bar">
+              <div class="progress"></div>
+            </div></li>
+          <li> <h3>
+              Vue.js
+            </h3>
+            <div class="Bar">
+              <div class="progress"></div>
+            </div></li>
+          <li> <h3>
+              HTTP
+            </h3>
+            <div class="Bar">
+              <div class="progress"></div>
+            </div></li>
         </ol>
       </section>
-      <section>
+      <section class="process">
         <h2>作品集</h2>
-        <nav>
-          <ol>
-            <li>所有</li>
-            <li>框架</li>
-            <li>原生JS&amp;CSS</li>
+        <nav class="food">
+          <ol class="clearfix">
+            <li id="all">所有</li>
+            <li id="work">框架</li>
+            <li id="vallina">原生JS&amp;CSS</li>
           </ol>
+          <div  id="probar" class="bar state-1">
+            <div class="barinner"></div>
+          </div>
         </nav>
-  
+       <script>
+         all.onclick=function(){
+          probar.className='bar state-1'
+         }
+         work.onclick=function(){
+          probar.className='bar state-2'
+         }
+         vallina.onclick=function(){
+          probar.className='bar state-3'
+         }
+       </script>
         <div class="jobs">
           <div class="big"></div>
           <div class="small"></div>

@@ -5,9 +5,10 @@ body{
     margin:0;
     
 }
+.skills>ol{list-style: none}
 a{
     text-decoration: none;
-    color:white;
+  
 }
 .clearfix::after{
     content: '';
@@ -79,6 +80,7 @@ font-weight: bold
       margin-left: auto;
       margin-right: auto;
       background-color: #ffffff;
+      box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
   }
   
 .welcome{
@@ -141,5 +143,131 @@ footer img{
  .media>a:hover{
 background-color:#CF5D5F;
 }
+main .download{
+    display: inline-block;
+    color:black;
+    font-size: 14px;
+    padding:20px 55px;
+    border:1px solid #cdcfd1;
+    border-radius:2px;
+    transition: box-shadows 0.5s;
+}
+main .mi{
+    text-align: center;
+}
 
- 
+main .download:hover{
+    box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.5);
+}
+.selfIn{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Courier New', Courier, monospace
+}
+.skills{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:60px;
+}
+.skills>h2{
+    text-align: center;
+    font-size:34px;
+    line-height: 1.2;
+    font-weight: 600;  
+}
+.skills>ol{
+    
+    padding:40px 50px 8px;
+    background-color: #fff;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.skills>ol>li{
+    float:left;
+    width: 50%;
+    box-sizing:border-box;
+    padding-right:30px
+}
+.skills .Bar{
+    height:3px;
+    background-color: #fae1e1;
+    border-radius:2px;
+    margin: 4px 0 40px;
+}
+.Bar>.progress{
+    background-color: #E6686A;
+    width:80%;
+    height:3px;
+}
+section h2{
+    text-align: center;
+    font-size:34px;
+    line-height: 1.2;
+    font-weight: 600;  
+}
+.food{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+section nav ol{
+    display: inline-block;
+    list-style:none;
+}
+.food li{
+    
+    float:left;
+    margin-left:30px;
+    cursor: pointer;
+}
+section .food li:nth-child(1){
+    margin-left:-30px;
+}
+.food{
+    display:inline-block;
+    vertical-align: top;
+    
+    
+
+}
+
+.process{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.food .bar{
+   
+    height: 5px;
+    background-color: white;
+    margin-top:-10px;
+}
+.barinner{
+    height:100%;
+    background-color: #E6686A;
+    border-radius:2px;
+    width:20%;
+    transition: all 0.3s
+}
+
+.bar.state-1 .barinner{
+    height:100%;
+    background-color: #E6686A;
+    width:20%;
+}
+
+.bar.state-2 .barinner{
+    margin-left:64px;
+    height:100%;
+    background-color: #E6686A;
+    width:20%;
+}
+.bar.state-3 .barinner{
+    margin-left:130px;
+    height:100%;
+    background-color: #E6686A;
+    width:43%;
+}
