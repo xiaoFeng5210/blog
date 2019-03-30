@@ -19,7 +19,7 @@
         </div>
   </div>
   
-    <div class="topNavBar clearfix">
+    <div id="topNavBar" class="topNavBar clearfix">
         <a class="logo" href="#" alt="logo"  >
           <span class="rs">RS</span><span class="card">card</span>
         </a>
@@ -148,7 +148,18 @@
   
       </section>
       <script>
-        sitewelcome.classList.remove('active')
+        setTimeout(function(){
+          sitewelcome.classList.remove('active')
+        },1000)
+       
+       window.onscroll=function(){
+         if(window.scrollY>0){
+           topNavBar.classList.add('sticky')
+           
+         }else{
+           topNavBar.classList.remove('sticky')
+         }
+       }
       </script>
 </body>
 </html>

@@ -28,7 +28,7 @@ a{
     font-weight: bold;
     border-bottom: 3px solid transparent;
     padding-bottom: 5px;
-    color:#B7B7B7;
+    color:inherit;
 }
 .logo{
     float:left;
@@ -68,7 +68,14 @@ font-weight: bold
       top:0;
       left:0;
       width:100%;
-     
+     transition: all 0.5s;
+     color:#B7B7B7;
+  }
+  .topNavBar.sticky{
+      background:white;
+      z-index:1;
+      color:#3d4451;
+      box-shadow: 0 0 10px rgba(0,0,0,0.25)
   }
   .banner .mask{
       height: 500px;
@@ -276,17 +283,19 @@ section .food li:nth-child(1){
     position:fixed;
     top:0;left:0;width:100%;height:100%;
     background:#888;
-    z-index:10;
+    z-index:50;
     justify-content: center;
     align-items: center;
+    
 }
-.site-welcome.avtive{
+.site-welcome.active{
     display: flex;
+    
 }
 .loading{
     width:200px;
     height:200px;
-    border:1px  solid red;
+    
     position:relative;
   }
   .loading .circle{
@@ -313,4 +322,5 @@ section .food li:nth-child(1){
       width:100px; height:100px;opacity:0
     }
   }
+
   
