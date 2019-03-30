@@ -12,7 +12,13 @@
   </style>
 </head>
 <body>
-    
+  <div id="sitewelcome" class="site-welcome active">
+      <div class="loading">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+  </div>
+  
     <div class="topNavBar clearfix">
         <a class="logo" href="#" alt="logo"  >
           <span class="rs">RS</span><span class="card">card</span>
@@ -141,5 +147,8 @@
         </div>
   
       </section>
+      <script>
+        sitewelcome.classList.remove('active')
+      </script>
 </body>
 </html>
