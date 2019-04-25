@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>张庆风的BLOG</title>
+    
     <link rel="stylesheet" href="./css/style.css">
     
     
       
-  </style>
+
 </head>
 <body>
   <div id="sitewelcome" class="site-welcome active">
@@ -147,6 +148,24 @@
         </div>
   
       </section>
+      <section class="message">
+        <h2>留言</h2>
+        <ol id="messageList">
+        </ol>
+        <form id="postMessageForm" style="width: 700px; margin: 50px auto;">
+          <label for="">姓名</label>
+          <input type="text" name="name">
+          <label for="">内容</label>
+          <input type="text" name="content">
+          <input type="submit" value="提交">
+        </form>
+
+
+
+
+
+
+
       <script>
         setTimeout(function(){
           sitewelcome.classList.remove('active')
@@ -161,5 +180,8 @@
          }
        }
       </script>
+   <script src="http://cdn1.lncld.net/static/js/3.5.0/av-min.js"></script>
+   <script src="./js/message.js"></script>
+      
 </body>
 </html>
